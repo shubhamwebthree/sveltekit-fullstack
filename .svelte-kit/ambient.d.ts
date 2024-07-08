@@ -26,6 +26,14 @@
  * ```
  */
 declare module '$env/static/private' {
+	export const POSTGRES_DATABASE: string;
+	export const POSTGRES_HOST: string;
+	export const POSTGRES_PASSWORD: string;
+	export const POSTGRES_PRISMA_URL: string;
+	export const POSTGRES_URL: string;
+	export const POSTGRES_URL_NON_POOLING: string;
+	export const POSTGRES_URL_NO_SSL: string;
+	export const POSTGRES_USER: string;
 	export const LESSOPEN: string;
 	export const USER: string;
 	export const npm_config_user_agent: string;
@@ -36,7 +44,6 @@ declare module '$env/static/private' {
 	export const npm_config_noproxy: string;
 	export const HOME: string;
 	export const CHROME_DESKTOP: string;
-	export const OLDPWD: string;
 	export const TERM_PROGRAM_VERSION: string;
 	export const DESKTOP_SESSION: string;
 	export const npm_package_json: string;
@@ -142,6 +149,14 @@ declare module '$env/static/public' {
  */
 declare module '$env/dynamic/private' {
 	export const env: {
+		POSTGRES_DATABASE: string;
+		POSTGRES_HOST: string;
+		POSTGRES_PASSWORD: string;
+		POSTGRES_PRISMA_URL: string;
+		POSTGRES_URL: string;
+		POSTGRES_URL_NON_POOLING: string;
+		POSTGRES_URL_NO_SSL: string;
+		POSTGRES_USER: string;
 		LESSOPEN: string;
 		USER: string;
 		npm_config_user_agent: string;
@@ -152,7 +167,6 @@ declare module '$env/dynamic/private' {
 		npm_config_noproxy: string;
 		HOME: string;
 		CHROME_DESKTOP: string;
-		OLDPWD: string;
 		TERM_PROGRAM_VERSION: string;
 		DESKTOP_SESSION: string;
 		npm_package_json: string;
