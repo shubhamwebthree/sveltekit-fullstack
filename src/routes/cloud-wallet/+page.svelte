@@ -149,7 +149,7 @@
     
     <button
       type="submit"
-      class="bg-yellow-500 hover:bg-blue-700 text-white font-bold mt-5 ml-2 px-2 rounded "
+        class="bg-yellow-500 hover:bg-blue-700 text-white font-bold mt-5 ml-2 px-2 rounded "
     >
       Pay
     </button>
@@ -158,6 +158,7 @@
   {#if form?.success}
     <!-- this message is ephemeral; it exists because the page was rendered in
 		   response to a form submission. it will vanish if the user reloads -->
-    <p class="pt-2">The Payment was successful. here is your <a href="{form?.payment}">Transaction  </a></p>
+    <p class="pt-2">The Payment was successful. Here is your <a href="https://whatsonchain.com/tx/{form?.payment}"><p class="text-decoration-line: underline hover:text-blue-900
+">Transaction</p></a></p>
   {/if}
 </div>

@@ -1,0 +1,10 @@
+
+contract Multiply {
+  int product;
+  constructor(int value) {
+    this.product = value;
+  }
+  public function unlock(int x, int y) {
+    require(x * y == this.product);
+  }
+}
