@@ -1,0 +1,13 @@
+{
+	"/": [],
+	"/bounty": [
+		"src/routes/bounty/+page.server.ts"
+	],
+	"/cloud-wallet": [
+		"src/routes/cloud-wallet/+page.server.ts"
+	],
+	"/profiles": [
+		"src/routes/profiles/+page.server.ts"
+	],
+	"/raw-wallet": []
+}
