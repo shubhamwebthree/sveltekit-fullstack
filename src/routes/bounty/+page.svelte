@@ -2,7 +2,8 @@
   export let form;
 </script>
 
-<div class="mt-0 pt-10 w-full max-w-5xl mx-auto flex flex-wrap justify-center space-x-1">
+<div 
+  class="mt-10 pt-10 w-full max-w-5xl mx-auto flex flex-wrap justify-center space-x-1">
   <div class="w-full lg:w-1/2 mb-6">
     <div class="p-4 rounded-lg shadow-xl dark:bg-white/10 bg-white/30 ring-1 ring-gray-900/5 backdrop-blur-lg">
       <form method="POST" action="?/deploy">
@@ -27,14 +28,14 @@
               class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
               id="square"
               type="number"
-              placeholder="Enter square number"
+              placeholder="Enter Square Number"
               name="square"
             />
           </div>
           <div class="w-full px-3">
             <button
               type="submit"
-              class="bg-blue-500 hover:bg-blue-700 text-white font-bold mt-5 px-4 py-2 rounded w-full"
+              class = "bg-yellow-500 hover:bg-blue-700 text-white font-bold mt-5 px-4 py-2 rounded w-full"
             >
               Deploy Bounty
             </button>
@@ -66,7 +67,8 @@
           <div class="w-full md:w-1/3 px-3">
             <button
               type="submit"
-              class="bg-blue-500 hover:bg-blue-700 text-white font-bold mt-2 px-4 py-2 rounded w-full"
+              
+              class=" bg-yellow-500  hover:bg-blue-700 text-white font-bold mt-18 px-4 py-3 rounded w-full"
             >
               Unlock Bounty
             </button>

@@ -25,8 +25,9 @@
     <p class="mt-1 ml-2 px-1"> {WIF}</p>
     
 
-    <button class="bg-yellow-500 hover:bg-blue-700 text-white font-bold mt-5 ml-2 px-32 rounded "
-        on:click={createKeys}> Generate New Wallet Keys 
+    <button 
+    class = "bg-yellow-500 hover:bg-blue-700 text-white font-bold mt-5 px-4 py-2 rounded w-full"
+    on:click={createKeys}> Generate New Wallet Keys 
     </button> 
     <!-- </div> -->
     <!-- </div> -->

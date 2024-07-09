@@ -14,9 +14,9 @@ export const server_loads = [];
 
 export const dictionary = {
 		"/": [2],
-		"/bounty": [~4],
-		"/cloud-wallet": [~5],
-		"/profiles": [~3],
+		"/bounty": [~3],
+		"/cloud-wallet": [~4],
+		"/profiles": [~5],
 		"/raw-wallet": [6]
 	};
 
